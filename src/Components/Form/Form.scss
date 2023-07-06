@@ -1,0 +1,18 @@
+.inp-container {
+    display: flex;
+    margin: 10px 0;
+
+    label {
+        width: 150px;
+        max-width: 50px;
+        text-transform: capitalize;
+    }
+    textarea,
+    input {
+        padding: 5px;
+        flex: 1;
+    }
+    textarea {
+        height: 80px;
+    }
+}
