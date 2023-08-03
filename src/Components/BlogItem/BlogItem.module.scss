@@ -20,6 +20,11 @@
     flex: 1;
     padding: 20px;
 
+    .title {
+        max-height: 100px;
+        overflow: hidden;
+    }
+
     .btn {
         background-color: transparent;
         outline: none;
